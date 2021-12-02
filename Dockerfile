@@ -1,5 +1,5 @@
 # Use base image with Ruby installed
-FROM ruby:2.3
+FROM ruby:2.5.9
 
 # install required system packages
 RUN apt-get update -qq && \
